@@ -1,0 +1,117 @@
+{
+  "admins": [
+    {
+      "email": "admin@racikrimpang.demo",
+      "name": "Admin Racik Rimpang",
+      "password": "AdminDemo2026!"
+    }
+  ],
+  "sellers": [
+    {
+      "email": "gilang.maulana@racikrimpang.demo",
+      "name": "Gilang Maulana",
+      "phone": "6281246147674",
+      "groupName": "CAKRAWALA",
+      "members": [
+        "Gilang Maulana (09)",
+        "M Ramdhan AS (16)",
+        "M Khoirul Ilham S (24)",
+        "M Ilham J (23)",
+        "Thiago Vigor F (33)"
+      ],
+      "password": "seller123*"
+    },
+    {
+      "email": "m.thoriqul.h.a@racikrimpang.demo",
+      "name": "M. Thoriqul H.A",
+      "phone": "6285606386380",
+      "groupName": "CLASS OF '58",
+      "members": [
+        "M. Thoriqul H.A",
+        "Septian S",
+        "M. Akhyak",
+        "Bagas Arga S.",
+        "Agam A."
+      ],
+      "password": "seller123*"
+    },
+    {
+      "email": "nor.aisyah.zahra@racikrimpang.demo",
+      "name": "Nor Aisyah Zahra",
+      "phone": "6285645065416",
+      "groupName": "NOR AISYAH ZAHRA",
+      "members": [
+        "Nor Aisyah Zahra",
+        "Siti Jannahtul Ma'wah",
+        "M. Ahzam Binarqi",
+        "M. Bayu Syaifudi"
+      ],
+      "password": "seller123*"
+    },
+    {
+      "email": "m.robith.mustahhal@racikrimpang.demo",
+      "name": "M. Robith Mustahhal",
+      "phone": "6285189621493",
+      "groupName": "M. ROBITH MUSTAHHAL",
+      "members": [
+        "M. Robith Mustahhal",
+        "M. Ramzi Akbar Maulana",
+        "M. Ardhan Wahyu",
+        "M. Syarif Rahmansyah"
+      ],
+      "password": "seller123*"
+    },
+    {
+      "email": "maulidia.amirah.jadid@racikrimpang.demo",
+      "name": "Maulidia Amirah Jadid",
+      "phone": "6282139843401",
+      "groupName": "MAULIDIA AMIRAH JADID",
+      "members": [
+        "Maulidia Amirah Jadid",
+        "M. Alexa Wicaksono",
+        "M. Rizky Pratama",
+        "Riska"
+      ],
+      "password": "seller123*"
+    },
+    {
+      "email": "ega@racikrimpang.demo",
+      "name": "Ega",
+      "phone": "6283168940463",
+      "groupName": "EGA",
+      "members": [
+        "Ega",
+        "Ferdy",
+        "Ozza",
+        "Sabian"
+      ],
+      "password": "seller123*"
+    },
+    {
+      "email": "ahmad.nur.hidayahtullah@racikrimpang.demo",
+      "name": "Ahmad Nur Hidayahtullah",
+      "phone": "6281233381661",
+      "groupName": "AHMAD NUR HIDAYAHTULLAH",
+      "members": [
+        "Ahmad Nur Hidayahtullah",
+        "Aby Rahmatul Ilham",
+        "Arva Kafa Bila",
+        "Hafis"
+      ],
+      "password": "seller123*"
+    },
+    {
+      "email": "fikri@racikrimpang.demo",
+      "name": "Fikri",
+      "phone": "6281547209108",
+      "groupName": "FIKRI",
+      "members": [
+        "Fikri",
+        "Agil",
+        "Zainal Abidin",
+        "Krisna Mohan"
+      ],
+      "password": "seller123*"
+    }
+  ]
+}

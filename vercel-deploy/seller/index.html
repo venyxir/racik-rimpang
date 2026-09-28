@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8f3">
+  <title>Studio peracik — Racik Rimpang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="seller-page">
+  <header class="seller-topbar"><div class="shell seller-topbar-inner">
+    <a class="brand" href="../"><span class="brand-mark">✳</span><span class="brand-word">racik rimpang<small>studio peracik</small></span></a>
+    <div class="seller-account"><span class="avatar" id="sellerAvatar">S</span><span><strong id="sellerDisplayName">Seller</strong><small id="sellerDisplayEmail"></small></span></div>
+    <nav class="seller-nav"><a class="secondary-button" href="../">Lihat katalog</a><button class="secondary-button" id="logoutButton" type="button">Keluar</button></nav>
+  </div></header>
+  <main class="shell seller-content">
+    <div class="seller-title-row"><div><h1 id="sellerTitle">Toko saya</h1><p id="sellerStats"></p></div><button class="primary-button" id="addProductButton" type="button">+ Tambah produk</button></div>
+    <form id="sellerProfileForm" class="seller-profile"><div class="field"><label for="sellerName">Nama toko</label><input id="sellerName" name="name" maxlength="60" required></div><div class="field"><label for="sellerPhone">WhatsApp toko</label><input id="sellerPhone" name="phone" type="tel" inputmode="tel" required><small>Nomor ini digunakan pada tombol pesan WhatsApp.</small></div><button class="primary-button" type="submit">Simpan profil</button></form>
+    <section aria-labelledby="inventoryTitle"><div class="section-head"><div><h2 id="inventoryTitle">Produk saya</h2><p>Daftar produk yang terhubung dengan akun ini</p></div></div><div class="inventory-list" id="inventoryList"></div></section>
+    <section class="seller-editor" id="editorPanel" hidden><div class="section-head"><div><h2 id="editorTitle">Tambah produk</h2></div></div><form id="productForm"><div class="form-grid">
+      <div class="field full"><label for="productName">Nama produk</label><input id="productName" name="name" maxlength="90" required placeholder="Contoh: Tas anyam buatan tangan"></div>
+      <div class="field"><label for="productPrice">Harga (Rp)</label><input id="productPrice" name="price" type="number" min="1" max="999999999" required placeholder="150000"></div>
+      <div class="field"><label for="productStock">Stok tersedia</label><input id="productStock" name="stock" type="number" min="0" max="999999" step="1" required placeholder="Contoh: 20"></div>
+      <div class="field"><label for="productCategory">Kategori</label><select id="productCategory" name="category" required><option>Jamu siap minum</option><option>Serbuk & seduhan</option><option>Bahan herbal</option><option>Perawatan tradisional</option><option>Paket racikan</option><option>Lainnya</option></select></div>
+      <div class="field full"><label for="productDescription">Deskripsi</label><textarea id="productDescription" name="description" maxlength="1200" required placeholder="Ceritakan bahan, cara penyajian, isi kemasan, dan masa simpan"></textarea></div>
+      <div class="field full"><label>Foto produk</label><div class="photo-uploader"><label class="photo-select" for="photoInput">Pilih foto</label><input id="photoInput" type="file" accept="image/*" multiple><span class="photo-note" id="photoCount">0 / 5 foto</span><div class="photo-previews" id="photoPreviews"></div></div></div>
+    </div><p class="form-note">Maksimal lima foto per produk. Foto disimpan di browser ini.</p><div class="seller-form-actions"><button class="secondary-button" id="cancelProduct" type="button">Batal</button><button class="primary-button" id="saveProduct" type="submit">Terbitkan produk</button></div></form></section>
+  </main>
+  <div id="toastRegion" aria-live="polite"></div>
+  <script src="../js/data.js"></script><script src="../js/utils.js"></script><script src="../js/data-import.js"></script><script src="../js/store.js"></script><script src="../js/auth.js"></script><script src="../js/seller-dashboard-data.js"></script><script src="../js/admin-dashboard-data.js"></script><script src="../js/seller.js"></script>
+</body>
+</html>

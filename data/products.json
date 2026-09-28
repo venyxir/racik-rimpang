@@ -1,0 +1,270 @@
+{
+  "products": [
+    {
+      "id": "seed-1",
+      "name": "Kunyit Asam",
+      "category": "Jamu siap minum",
+      "price": 10000,
+      "stock": 20,
+      "sellerName": "CAKRAWALA",
+      "groupName": "CAKRAWALA",
+      "sellerContactName": "Gilang Maulana",
+      "sellerPhone": "6281246147674",
+      "members": [
+        "Gilang Maulana (09)",
+        "M Ramdhan AS (16)",
+        "M Khoirul Ilham S (24)",
+        "M Ilham J (23)",
+        "Thiago Vigor F (33)"
+      ],
+      "composition": [
+        "Kunyit",
+        "Asam jawa",
+        "Gula merah",
+        "Gula putih"
+      ],
+      "description": "Kunyit asam dengan perpaduan kunyit, asam jawa, gula merah, dan gula putih.",
+      "photos": [
+        "https://mediaindonesia.gumlet.io/news/2025/05/09/1746799052_b59dcf24c2a911e0b40f.jpg?dpr=2.6&w=376"
+      ],
+      "imageSource": "Foto langsung yang dirujuk dari sumber pada data produk; URL sumber disimpan di photoSourceUrl.",
+      "sourceNote": "Data produk, anggota, komposisi, harga, kelompok, dan nomor perwakilan berasal dari data_produk_kolaborasi.txt.",
+      "photoSourceUrl": "https://www.pexels.com/id-id/pencarian/kunyit%20asam/",
+      "ownerEmail": "gilang.maulana@racikrimpang.demo",
+      "sellerAccountEmail": "gilang.maulana@racikrimpang.demo"
+    },
+    {
+      "id": "seed-2",
+      "name": "Wedang Jahe",
+      "category": "Jamu siap minum",
+      "price": 12500,
+      "stock": 20,
+      "sellerName": "CLASS OF '58",
+      "groupName": "CLASS OF '58",
+      "sellerContactName": "M. Thoriqul H.A",
+      "sellerPhone": "6285606386380",
+      "members": [
+        "M. Thoriqul H.A",
+        "Septian S",
+        "M. Akhyak",
+        "Bagas Arga S.",
+        "Agam A."
+      ],
+      "composition": [
+        "Jahe",
+        "Air",
+        "Gula merah",
+        "Serai",
+        "Garam"
+      ],
+      "description": "Wedang jahe dengan jahe, air, gula merah, serai, dan garam.",
+      "photos": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/73/Wedang_Jahe_Hangat.jpg"
+      ],
+      "imageSource": "Foto langsung yang dirujuk dari sumber pada data produk; URL sumber disimpan di photoSourceUrl.",
+      "sourceNote": "Data produk, anggota, komposisi, harga, kelompok, dan nomor perwakilan berasal dari data_produk_kolaborasi.txt.",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File%3AWedang_Jahe_Hangat.jpg",
+      "ownerEmail": "m.thoriqul.h.a@racikrimpang.demo",
+      "sellerAccountEmail": "m.thoriqul.h.a@racikrimpang.demo"
+    },
+    {
+      "id": "seed-3",
+      "name": "Wedang Jahe Merah",
+      "category": "Jamu siap minum",
+      "price": 8000,
+      "stock": 20,
+      "sellerName": "NOR AISYAH ZAHRA",
+      "groupName": "NOR AISYAH ZAHRA",
+      "sellerContactName": "Nor Aisyah Zahra",
+      "sellerPhone": "6285645065416",
+      "members": [
+        "Nor Aisyah Zahra",
+        "Siti Jannahtul Ma'wah",
+        "M. Ahzam Binarqi",
+        "M. Bayu Syaifudi"
+      ],
+      "composition": [
+        "Jahe merah",
+        "Air",
+        "Gula merah",
+        "Serai",
+        "Pandan"
+      ],
+      "description": "Wedang jahe merah dengan jahe merah, air, gula merah, serai, dan pandan.",
+      "photos": [
+        "https://upload.wikimedia.org/wikipedia/commons/8/8e/Wedang_Jahe_Sari_Jahe_Afna_Penara.jpg"
+      ],
+      "imageSource": "Foto langsung yang dirujuk dari sumber pada data produk; URL sumber disimpan di photoSourceUrl.",
+      "sourceNote": "Data produk, anggota, komposisi, harga, kelompok, dan nomor perwakilan berasal dari data_produk_kolaborasi.txt.",
+      "photoSourceUrl": "https://commons.wikimedia.org/wiki/File%3AWedang_Jahe_Sari_Jahe_Afna_Penara.jpg",
+      "ownerEmail": "nor.aisyah.zahra@racikrimpang.demo",
+      "sellerAccountEmail": "nor.aisyah.zahra@racikrimpang.demo"
+    },
+    {
+      "id": "seed-4",
+      "name": "Golden Milk Tea",
+      "category": "Minuman susu & rempah",
+      "price": 18750,
+      "stock": 20,
+      "sellerName": "M. ROBITH MUSTAHHAL",
+      "groupName": "M. ROBITH MUSTAHHAL",
+      "sellerContactName": "M. Robith Mustahhal",
+      "sellerPhone": "6285189621493",
+      "members": [
+        "M. Robith Mustahhal",
+        "M. Ramzi Akbar Maulana",
+        "M. Ardhan Wahyu",
+        "M. Syarif Rahmansyah"
+      ],
+      "composition": [
+        "Susu",
+        "Kunyit",
+        "Jahe",
+        "Kayu manis",
+        "Kapulaga",
+        "Gula kelapa"
+      ],
+      "description": "Golden Milk Tea berbahan susu dengan kunyit, jahe, kayu manis, kapulaga, dan gula kelapa.",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Golden%20Milk%20.jpg"
+      ],
+      "imageSource": "Foto langsung yang dirujuk dari sumber pada data produk; URL sumber disimpan di photoSourceUrl.",
+      "sourceNote": "Data produk, anggota, komposisi, harga, kelompok, dan nomor perwakilan berasal dari data_produk_kolaborasi.txt. Foto adalah referensi visual, bukan foto produk kelompok.",
+      "photoSourceUrl": "",
+      "ownerEmail": "m.robith.mustahhal@racikrimpang.demo",
+      "sellerAccountEmail": "m.robith.mustahhal@racikrimpang.demo"
+    },
+    {
+      "id": "seed-5",
+      "name": "Kunyit Asam",
+      "category": "Jamu siap minum",
+      "price": 16250,
+      "stock": 20,
+      "sellerName": "MAULIDIA AMIRAH JADID",
+      "groupName": "MAULIDIA AMIRAH JADID",
+      "sellerContactName": "Maulidia Amirah Jadid",
+      "sellerPhone": "6282139843401",
+      "members": [
+        "Maulidia Amirah Jadid",
+        "M. Alexa Wicaksono",
+        "M. Rizky Pratama",
+        "Riska"
+      ],
+      "composition": [
+        "Kunyit",
+        "Asam jawa",
+        "Jahe",
+        "Serai",
+        "Gula merah",
+        "Air"
+      ],
+      "description": "Kunyit asam dengan kunyit, asam jawa, jahe, serai, gula merah, dan air.",
+      "photos": [
+        "https://mediaindonesia.gumlet.io/news/2025/05/09/1746799052_b59dcf24c2a911e0b40f.jpg?dpr=2.6&w=376"
+      ],
+      "imageSource": "Foto langsung yang dirujuk dari sumber pada data produk; URL sumber disimpan di photoSourceUrl.",
+      "sourceNote": "Data produk, anggota, komposisi, harga, kelompok, dan nomor perwakilan berasal dari data_produk_kolaborasi.txt.",
+      "photoSourceUrl": "https://www.pexels.com/id-id/pencarian/kunyit%20asam/",
+      "ownerEmail": "maulidia.amirah.jadid@racikrimpang.demo",
+      "sellerAccountEmail": "maulidia.amirah.jadid@racikrimpang.demo"
+    },
+    {
+      "id": "seed-6",
+      "name": "Wedang Jahe",
+      "category": "Jamu siap minum",
+      "price": 12500,
+      "stock": 20,
+      "sellerName": "EGA",
+      "groupName": "EGA",
+      "sellerContactName": "Ega",
+      "sellerPhone": "6283168940463",
+      "members": [
+        "Ega",
+        "Ferdy",
+        "Ozza",
+        "Sabian"
+      ],
+      "composition": [
+        "Jahe",
+        "Air",
+        "Gula merah",
+        "Serai",
+        "Rempah"
+      ],
+      "description": "Wedang jahe dengan jahe, air, gula merah, serai, dan rempah.",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wedang%20Sari%20Jahe%20Danau%20Ranau.jpg"
+      ],
+      "imageSource": "Foto langsung yang dirujuk dari sumber pada data produk; URL sumber disimpan di photoSourceUrl.",
+      "sourceNote": "Data produk, anggota, komposisi, harga, kelompok, dan nomor perwakilan berasal dari data_produk_kolaborasi.txt.",
+      "photoSourceUrl": "https://www.magnific.com/idn/foto/wedang-jahe",
+      "ownerEmail": "ega@racikrimpang.demo",
+      "sellerAccountEmail": "ega@racikrimpang.demo"
+    },
+    {
+      "id": "seed-7",
+      "name": "Susu Jahe",
+      "category": "Minuman susu & rempah",
+      "price": 18750,
+      "stock": 20,
+      "sellerName": "AHMAD NUR HIDAYAHTULLAH",
+      "groupName": "AHMAD NUR HIDAYAHTULLAH",
+      "sellerContactName": "Ahmad Nur Hidayahtullah",
+      "sellerPhone": "6281233381661",
+      "members": [
+        "Ahmad Nur Hidayahtullah",
+        "Aby Rahmatul Ilham",
+        "Arva Kafa Bila",
+        "Hafis"
+      ],
+      "composition": [
+        "Susu",
+        "Jahe",
+        "Gula merah",
+        "Kayu manis",
+        "Cengkeh"
+      ],
+      "description": "Susu jahe dengan susu, jahe, gula merah, kayu manis, dan cengkeh.",
+      "photos": [
+        "https://www.sidomuncul.co.id/assets/images/product/produk-susu-jahe.png"
+      ],
+      "imageSource": "Foto langsung yang dirujuk dari sumber pada data produk; URL sumber disimpan di photoSourceUrl.",
+      "sourceNote": "Data produk, anggota, komposisi, harga, kelompok, dan nomor perwakilan berasal dari data_produk_kolaborasi.txt.",
+      "photoSourceUrl": "https://www.sidomuncul.co.id/id/product/susu_jahe.html",
+      "ownerEmail": "ahmad.nur.hidayahtullah@racikrimpang.demo",
+      "sellerAccountEmail": "ahmad.nur.hidayahtullah@racikrimpang.demo"
+    },
+    {
+      "id": "seed-8",
+      "name": "Jahe",
+      "category": "Minuman jahe",
+      "price": 12500,
+      "stock": 20,
+      "sellerName": "FIKRI",
+      "groupName": "FIKRI",
+      "sellerContactName": "Fikri",
+      "sellerPhone": "6281547209108",
+      "members": [
+        "Fikri",
+        "Agil",
+        "Zainal Abidin",
+        "Krisna Mohan"
+      ],
+      "composition": [
+        "Jahe",
+        "Air",
+        "Gula merah",
+        "Serai"
+      ],
+      "description": "Minuman jahe dengan jahe, air, gula merah, dan serai.",
+      "photos": [
+        "https://upload.wikimedia.org/wikipedia/commons/7/73/Wedang_Jahe_Hangat.jpg"
+      ],
+      "imageSource": "Foto langsung yang dirujuk dari sumber pada data produk; URL sumber disimpan di photoSourceUrl.",
+      "sourceNote": "Data produk, anggota, komposisi, harga, kelompok, dan nomor perwakilan berasal dari data_produk_kolaborasi.txt.",
+      "photoSourceUrl": "https://www.pexels.com/id-id/pencarian/minuman%20jahe/",
+      "ownerEmail": "fikri@racikrimpang.demo",
+      "sellerAccountEmail": "fikri@racikrimpang.demo"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f8ef">
+  <title>Dashboard admin — Racik Rimpang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="seller-page">
+  <header class="seller-topbar"><div class="shell seller-topbar-inner">
+    <a class="brand" href="../"><span class="brand-mark">✳</span><span class="brand-word">racik rimpang<small>admin studio</small></span></a>
+    <div class="seller-account"><span class="avatar" id="adminAvatar">A</span><span><strong id="adminName">Admin</strong><small>Administrator</small></span></div>
+    <nav class="seller-nav"><a class="secondary-button" href="../">Lihat katalog</a><button class="secondary-button" id="adminLogout" type="button">Keluar</button></nav>
+  </div></header>
+  <main class="shell seller-content admin-content">
+    <div class="seller-title-row"><div><h1>Ringkasan platform</h1><p>Aktivitas toko dan katalog Racik Rimpang</p></div></div>
+    <section class="admin-kpis" aria-label="Statistik platform"><article class="admin-kpi"><span>Seller terdaftar</span><strong id="adminSellerCount">0</strong></article><article class="admin-kpi"><span>Produk</span><strong id="adminProductCount">0</strong></article><article class="admin-kpi"><span>Ulasan</span><strong id="adminReviewCount">0</strong></article></section>
+    <section class="admin-section"><div class="section-head"><div><h2>Seller</h2><p>Ringkasan toko dan rating</p></div></div><div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Nama toko</th><th>Email</th><th>Produk</th><th>Ulasan</th><th>Rating</th></tr></thead><tbody id="adminSellerRows"></tbody></table></div></section>
+    <section class="admin-section"><div class="section-head"><div><h2>Katalog produk</h2><p>Stok dan harga saat ini</p></div></div><div class="admin-table-wrap"><table class="admin-table"><thead><tr><th>Produk</th><th>Seller</th><th>Kategori</th><th>Harga</th><th>Stok</th></tr></thead><tbody id="adminProductRows"></tbody></table></div></section>
+  </main>
+  <div id="toastRegion" aria-live="polite"></div>
+  <script src="../js/data.js"></script><script src="../js/utils.js"></script><script src="../js/data-import.js"></script><script src="../js/store.js"></script><script src="../js/auth.js"></script><script src="../js/admin-dashboard-data.js"></script><script src="../js/admin.js"></script>
+</body>
+</html>

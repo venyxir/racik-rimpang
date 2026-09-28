@@ -1,0 +1,12 @@
+{
+  "name": "katalog-kolaborasi-tkj-rpl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Katalog produk kolaborasi X TKJ 1 & X RPL",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

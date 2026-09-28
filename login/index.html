@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#245c49">
+  <title>Masuk peracik — Racik Rimpang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="auth-page">
+  <aside class="auth-aside">
+    <a class="brand" href="../"><span class="brand-mark">✳</span><span class="brand-word">racik rimpang<small>portal peracik</small></span></a>
+    <div class="auth-aside-copy"><div class="eyebrow">Ruang untuk usaha jamu Anda</div><h1>Rawat tradisi,<br>tumbuhkan usaha.</h1><p>Kelola racikan, produk herbal, dan toko Anda dari satu tempat.</p></div>
+    <div class="auth-aside-foot">Racik Rimpang · Peracik</div>
+  </aside>
+  <main class="auth-main"><section class="auth-card">
+    <h2 id="authTitle">Selamat datang kembali</h2><p class="auth-subtitle" id="authSubtitle">Masuk untuk mengelola produk dan toko jamu Anda.</p>
+    <div class="auth-tabs" role="tablist"><button class="active" id="loginTab" type="button" role="tab">Masuk</button><button id="registerTab" type="button" role="tab">Daftar toko</button></div>
+    <form id="authForm">
+      <div id="registerFields" hidden><div class="field"><label for="sellerName">Nama usaha jamu</label><input id="sellerName" name="name" maxlength="60" autocomplete="organization" placeholder="Contoh: Jamu Ibu Raras"></div><div class="field"><label for="sellerPhone">Nomor WhatsApp</label><input id="sellerPhone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="08xx atau +62xx"></div></div>
+      <div class="field"><label for="sellerEmail">Email</label><input id="sellerEmail" name="email" type="email" autocomplete="email" required placeholder="nama@email.com"></div>
+      <div class="field"><label for="sellerPassword">Kata sandi</label><input id="sellerPassword" name="password" type="password" minlength="8" autocomplete="current-password" required placeholder="Minimal 8 karakter"></div>
+      <button class="primary-button" id="submitAuth" type="submit" disabled>Masuk ke studio</button><p class="auth-message" id="authMessage" role="status" aria-live="polite"></p>
+    </form><a class="back-link" href="../">← Kembali ke katalog</a>
+  </section></main>
+  <div id="toastRegion" aria-live="polite"></div>
+  <script src="../js/data.js"></script><script src="../js/utils.js"></script><script src="../js/data-import.js"></script><script src="../js/store.js"></script><script src="../js/auth.js"></script><script src="../js/login.js"></script>
+</body>
+</html>
